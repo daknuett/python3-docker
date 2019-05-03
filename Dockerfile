@@ -1,3 +1,3 @@
-FROM daknuett/gcc
-RUN apt update
-RUN apt install python3 python3-pip -y
+FROM daknuett/gcc-docker
+RUN apt-get update
+RUN apt-get install python3 python3-pip -y
